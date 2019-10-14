@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChromeExtensionIdUtility"
         mc:Ignorable="d"
-        Title="Chrome Extension Id Calcualtor" Height="474.029" Width="685.316" ResizeMode="NoResize">
-    <Grid>
+        Title="Chrome Extension Id Calcualtor" Height="318" Width="618">
+    <Grid Margin="0,0,0,58">
+        <TextBox x:Name="ExtensionId" HorizontalAlignment="Left" Height="23" Margin="60,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="490"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="253,92,0,0" VerticalAlignment="Top" Width="112" Height="40" Click="Button_Click"/>
+        <Label x:Name="PEMLocation" Content="" HorizontalAlignment="Left" Margin="60,40,0,0" VerticalAlignment="Top" Height="34" Width="382"/>
+        <Button x:Name="PEMBtn" Content="PEM File" HorizontalAlignment="Left" Margin="447,43,0,0" VerticalAlignment="Top" Width="103" Height="20" Click="PEMBtn_Click"/>
 
     </Grid>
 </Window>
